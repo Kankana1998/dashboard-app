@@ -135,7 +135,7 @@ const Dashboard: React.FC = () => {
 
         {/* Goals, Popular Dishes, Menus */}
         <Grid item xs={4}>
-          <Card sx={{height: '100%'}}>
+          <Card>
             <CardContent>
               <Typography variant="h6" gutterBottom>
                 Goals
@@ -166,8 +166,8 @@ const Dashboard: React.FC = () => {
         </Grid>
 
         {/* Recent Orders */}
-        <Grid item xs={8} sx={{ minHeight: "full" }}>
-          <Card>
+        <Grid item xs={8}>
+          <Card sx={{height: '100%'}}>
             <CardContent>
               <Typography variant="h6" gutterBottom>
                 Recent Orders
